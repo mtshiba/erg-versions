@@ -1,0 +1,47 @@
+[
+    {
+        "version": "v0.5.9",
+        "date": "2022-10-15",
+        "files": [
+            "linux-arm64",
+            "linux-armv7l",
+            "linux-x86_64",
+            "osx-x86_64-tar",
+            "src",
+            "win-x86_64-zip",
+            "win-x86_64-exe"
+        ],
+        "lts": false,
+        "security": false
+    },
+    {
+        "version": "v0.5.8",
+        "date": "2022-10-7",
+        "files": [
+            "linux-arm64",
+            "linux-armv7l",
+            "linux-x86_64",
+            "osx-x86_64-tar",
+            "src",
+            "win-x86_64-zip",
+            "win-x86_64-exe"
+        ],
+        "lts": false,
+        "security": false
+    },
+    {
+        "version": "v0.5.7",
+        "date": "2022-10-1",
+        "files": [
+            "linux-arm64",
+            "linux-armv7l",
+            "linux-x86_64",
+            "osx-x86_64-tar",
+            "src",
+            "win-x86_64-zip",
+            "win-x86_64-exe"
+        ],
+        "lts": false,
+        "security": false
+    }
+]
