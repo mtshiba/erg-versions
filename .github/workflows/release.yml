@@ -1,6 +1,7 @@
 name: Release
 
 on:
+  push:
   release:
     types: [published]
 
@@ -10,9 +11,11 @@ jobs:
     steps:
       - name: Curl Api
         run: |
+          TOKEN=${{ secrets.DEV_TOKEN }}
+
           curl \
             -X POST \
-            -H "Authorization: token ${{ secrets.DEV_TOKEN }}"
+            -H "Authorization: token $TOKEN"
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/mtshiba/rele/dispatches \
             -d '{"event_type":"release-notification","client_payload":{"msg": "New release published"}}'
